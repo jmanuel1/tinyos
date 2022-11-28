@@ -5,6 +5,8 @@ authors = ["zgstewart@gmail.com"]
 
 [lib]
 path = "kmain.rs"
+crate-type = ["staticlib"]
 
 [dependencies]
-core-nightly = "2015.1.7"
+env-io = { git = "https://github.com/jonathanrlouie/env-io" }
+mdo = "0.3.0"

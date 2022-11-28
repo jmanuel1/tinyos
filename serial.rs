@@ -19,6 +19,7 @@ fn line_status_port(base: u16) -> u16 {
     base + 5
 }
 
+#[derive(Clone)]
 pub struct Port {
     base: u16,
 }
