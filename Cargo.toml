@@ -8,5 +8,5 @@ path = "kmain.rs"
 crate-type = ["staticlib"]
 
 [dependencies]
-env-io = { git = "https://github.com/jonathanrlouie/env-io" }
+operational = "0.0.5"
 mdo = "0.3.0"

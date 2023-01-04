@@ -3,20 +3,21 @@
 version = 3
 
 [[package]]
-name = "env-io"
-version = "0.0.1"
-source = "git+https://github.com/jonathanrlouie/env-io#942bce7b6ea34b996b59276947fcf4f832b72303"
-
-[[package]]
 name = "mdo"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f53219793a5db57cb2698bc35e77fa82edffc580d780569e4a0d84db098401c0"
 
 [[package]]
+name = "operational"
+version = "0.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf1d07bb68a9983497f7c7cdbf7ba952088ff0ad69a179152f77f91482e80306"
+
+[[package]]
 name = "tinyos"
 version = "0.0.0"
 dependencies = [
- "env-io",
  "mdo",
+ "operational",
 ]
